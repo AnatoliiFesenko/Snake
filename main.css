@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+}
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#counter {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 50px;
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: yellow;
+  background-color: rgb(0, 0, 0);
+  border: 20px solid yellow;
+  border-radius: 15px;
+}
+
+#canvas {
+  border: 20px solid rgb(31, 31, 31);
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.2'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23525053'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
